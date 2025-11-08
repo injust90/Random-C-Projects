@@ -1,0 +1,6 @@
+This program takes the user temperature and converts it to Celsisus or Fahrenheit.
+
+TODO: Give user the option to input celsisus or fahrenheit
+
+I suspect that the getchar() takes the ASCII or Unicode conversion, and then I am multiplying 
+based on that. Not on the number as intended.
