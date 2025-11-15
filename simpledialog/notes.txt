@@ -1,0 +1,21 @@
+Programs to write in C
+- [ ] Simple text adventure 
+- [ ] Simple battler 
+
+Library game
+Go through the terminal, discover a new language.
+
+Quizzer:
+- Player is asked what character it is, and inputs the romaji
+- Implement a randomizer
+
+Randomizer subroutine
+	returns a random カタカナ character
+	store an array of katakana characters
+	randomly select
+
+Main routine
+first get a random character to test the player
+	then compare that character to the romaji inputted
+	give player a score of correct answers
+if we see character
