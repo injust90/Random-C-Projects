@@ -26,3 +26,15 @@ character\n
 it will run the while loop multiple times
 
 aiueo\n
+
+while len = getline(line, MAXLINE) > 0
+	if length of line is equal to 1
+		check line[0] against katakana
+		if input is correct
+			print correct
+	else
+		print incorrect
+	
+Right now the issue (I think) is that the input is one behind the tester.
+
+Maybe use the regular while loop?
