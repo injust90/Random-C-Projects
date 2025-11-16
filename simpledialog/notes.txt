@@ -9,10 +9,9 @@ Quizzer:
 - Player is asked what character it is, and inputs the romaji
 - Implement a randomizer
 
-Randomizer subroutine
-	returns a random カタカナ character
+Randomizer subroutine returns a random カタカナ character
 	store an array of katakana characters
-	randomly select
+	randomly select with random
 
 Main routine
 first get a random character to test the player

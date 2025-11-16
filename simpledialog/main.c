@@ -1,28 +1,37 @@
+#include <stddef.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <wchar.h>
 
-int randomChar();
+char randomChar();
 
 int main()
 {
 	int choice;
 
-	printf("Welcome the Library.\nA place of lost information\n");
-	printf("図書館へようこそ。\n");
+	// printf("Welcome the Library.\nA place of lost information\n");
+	// printf("図書館へようこそ。\n");
 
-	choice = getchar();
+	// printf("randomChar: %c", randomChar());
 
-	// if (choice == '1') {
-	// 	printf("You");
-	// }
-	// if (choice == '2') {
-	// 	printf("");
-	// }
+	const char katakana[] = "アイウエオ";
 
-	char c[] = "ア";
-	printf("%s", c);
+	setlocale(LC_ALL, "en_US.utf8");
+	const char* mbstr = "アリガトウ";
+	wchar_t wstr[5];
+	mbstowcs(wstr, mbstr, 5);
+	printf("Wide String: %ls\n", wstr); 
+
+	printf("wstr[0]: %lc", wstr[0]);
+	
+   return 0;
+
 }
 
-int randomChar()
+char randomChar()
 {
-	return 0;	
+	const char katakana[] = "アイウエオ";
+	// printf("%s", c);
+	return katakana[0];	
 }
