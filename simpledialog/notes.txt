@@ -18,3 +18,11 @@ first get a random character to test the player
 	then compare that character to the romaji inputted
 	give player a score of correct answers
 if we see character
+
+character\n
+\n telling the loop to loop again c = getwchar
+
+アイウエオ
+it will run the while loop multiple times
+
+aiueo\n
