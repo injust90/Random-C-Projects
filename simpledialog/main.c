@@ -22,6 +22,16 @@ int main()
 	int len;
 	wchar_t line[MAXLINE];
 
+	printf("You find yourself in a dusty old library.\n\nThe books are entombed with dust and there is a musky odor in the air.\n\n");
+	printf("A kind voice begins to speak \"I've been waiting a longgg time for you!\"\n\n");
+	printf("\"We need to learn an ancient language known as Japanese\"\n\n");
+	printf("\"This is going to be fun!\n\n\"");
+	printf("First thing is first, we need to teach you the basics.\n\n");
+	printf("There are 46 letters of hiragana (ひらがな) and 46 katakana (カタカナ)\n\n");
+	printf("The first letters of the alphabet are あいうえお corresponding to AIUEO.\n\n");
+	printf("I'm going to show you the letters with the romaji and it's your job to type them out.\n\n");
+	printf("For example if I show you カ(ka) it's your job to type out ka, got it? :)\n\n");
+
 	do {
 		katakana = randomChar();
 		printf("Input the correct katakana: %lc\n", katakana);
