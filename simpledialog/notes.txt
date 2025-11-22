@@ -38,3 +38,29 @@ while len = getline(line, MAXLINE) > 0
 Right now the issue (I think) is that the input is one behind the tester.
 
 Maybe use the regular while loop?
+
+カ(ka)
+user: ka
+
+Do we compare by position in the strings?
+a i u e o
+アイウエオ
+
+can we return the position of the character for use in comparing?
+
+if we see a, return the position of the string of the katakana
+compare that position to the position of the romaji
+
+randomChar() give me position of ア
+if a == romaji.position
+
+
+Mechanics
+- Checker that checks for random characters
+- Type out text
+
+カキクケコ
+kakikukeko
+
+Let me introduce you to the first character
+The character is vocalized "a" like "ahh"
