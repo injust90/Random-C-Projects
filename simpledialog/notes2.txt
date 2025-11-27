@@ -5,3 +5,7 @@ You find yourself in a dusty old library.
 The books are entombed with dust and there is a musky odor in the air.
 
 A kind voice suddenly appears.
+
+Audio association with the Hiragana and Katakana notes. Similar to the 88 keys on a keyboard.
+
+const char* mbstr = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
